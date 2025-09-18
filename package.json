@@ -1,0 +1,22 @@
+{
+  "name": "sblurp-docs",
+  "version": "1.0.0",
+  "description": "Documentation for Sblurp",
+  "license": "CC-BY-4.0",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.6",
+    "prettier": "3.6.2",
+    "vitepress": "2.0.0-alpha.12"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "packageManager": "pnpm@10.13.1"
+}
