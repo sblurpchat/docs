@@ -1,0 +1,29 @@
+---
+title: Plugins
+---
+
+- social previews
+- funny text / substitutions
+- cross-community linking
+- github activity
+- rss feeds
+- polls
+- reaction channelizer
+- google meet
+- zoom
+- translate
+- invite-only system
+- chess
+- giphy
+- moderation
+- pinned messages
+- patreon integration
+- channel pages/docs/wiki
+- channel forums
+- default channels
+- forced channels (announcements, rules)
+- public export
+- reminders / scheduled messages
+- reddit alerts
+- stock ticker
+- crypto price ticker
