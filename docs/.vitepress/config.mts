@@ -3,13 +3,21 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Sblurp",
   description: "Communities for humans",
-  base: "/sblurp-docs/", // https://sblurpchat.github.io/sblurp-docs/
+  base: "/docs/", // https://sblurpchat.github.io/docs/
   themeConfig: {
     logo: "/images/sblurp-logo-512px.png",
     sidebar: [
       {
         text: "Contents",
-        items: [{ text: "Introduction", link: "/" }],
+        items: [
+          { text: "Introduction", link: "/" },
+          { text: "Product", link: "/product" },
+          { text: "Business", link: "/business" },
+          { text: "Architecture", link: "/architecture" },
+          { text: "Clients", link: "/clients" },
+          { text: "Plugins", link: "/plugins" },
+          { text: "Privacy", link: "/privacy" },
+        ],
       },
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/sblurpchat" }],

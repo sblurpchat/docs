@@ -13,6 +13,10 @@ pnpm install
 pnpm run docs:dev
 ```
 
+## Guidelines
+
+Markdown is formatted with Prettier to keep things tidy.
+
 ## License
 
 Copyright © 2025 sblurp.chat. All rights reserved.
