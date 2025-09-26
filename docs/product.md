@@ -8,7 +8,7 @@ outline: deep
 
 # Product
 
-Sblurp is a full-featured, modern multi-user chat application. The platform includes server hosting, an open-source server package, and native apps for all major desktop and mobile platforms. To get started, download the official client from your app store or [sblurp.chat](https://sblurp.chat).
+Sblurp is a full-featured, modern multi-user chat application. The platform includes server hosting, an open-source server package, and native apps for all major desktop and mobile platforms. To get started, download the official client from your app store or [https://sblurp.chat](https://sblurp.chat).
 
 ## Hosting
 
@@ -51,6 +51,13 @@ Users' phone numbers and email addresses are private and will only ever be used 
 Official Sblurp accounts can claim a unique username once a phone number and email address has been verified. This username helps identify accounts as authentic. Usernames have length and character limitations and can be changed at most every 90 days to limit abuse.
 
 Users can set a profile picture, name, pronouns, and short bio as part of their profile. This bio is available publicly at `sblurp.chat/@<username>` but can be made private. User profiles are visible server members and can be customized on a per-server basis.
+
+### Roles
+
+In order to provide fine-grained control over permissions, users may be assigned on or more roles. Servers start with a single role, `admin`, assigned to the first user.
+
+> [!NOTE]
+> The concepts of roles and permissions is incomplete. Ideally we want a system that provides the simplicity of Slack with the flexibility of Discord, all while being simple to set up and administer.
 
 ### Channels
 

@@ -16,7 +16,7 @@ export default defineConfig({
           { text: "Architecture", link: "/architecture" },
           { text: "Clients", link: "/clients" },
           { text: "Plugins", link: "/plugins" },
-          { text: "Privacy", link: "/privacy" },
+          { text: "Privacy and Safety", link: "/privacy-and-safety" },
         ],
       },
     ],

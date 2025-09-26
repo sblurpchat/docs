@@ -18,6 +18,7 @@ title: Plugins
 - moderation
 - pinned messages
 - patreon integration
+- stripe integration / paywall
 - channel pages/docs/wiki
 - channel forums
 - default channels
